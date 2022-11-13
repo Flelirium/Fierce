@@ -1,0 +1,115 @@
+body{
+  width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    resize: both;
+    overflow-x: hidden;
+}
+
+.background{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.65)) ,url(https://inspgr.id/app/uploads/2022/05/photography-zhurkanov-semechkin-feature.jpg);
+    width: 100%;
+    height: 100vh;
+	
+    position: absolute;
+    top: -32vh;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-size: cover;
+    overflow-y: auto;
+    
+}
+
+
+.navbar{
+    width: 100%;
+    height: 90px;
+    background-color: rgb(14, 1, 48);
+    position: relative;
+    right: 0;
+    bottom: 10px;
+    opacity: 0.8
+}
+.navbarline{
+  width: 100%;
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.container {
+    position: absolute;
+    margin: 20px;
+    width: 1922px;
+  }
+  .logo{
+    position: absolute;
+    float: left;
+    font-size: 50px;
+    color: aliceblue;
+    text-decoration: underline;
+    font-family:serif;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: -3px;
+    width: 500px;
+  }
+  .topnav{         
+    width: 300px;
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 27px;
+    top: 0;
+    right: -1400px;
+    position: relative;
+  }
+
+  .introduction h1{
+    width: 1900px;
+    height: 100px;
+    margin: 20px;
+    position: absolute;
+    top: 190px ;
+    right: 0;
+    transform: translateY(50%);
+    text-align:  center;
+    color: #fff;
+    font-size: 50px;
+    font-style: italic;
+    
+  }
+  .introduction p{
+    width: 1900px;
+    height: 100px;
+    margin: 20px;
+    position: absolute;
+    top: 350px ;
+    right: 0;
+    transform: translateY(50%);
+    text-align:  center;
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .background2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0.65)) ,url(https://color-hex.org/colors/071426.png);
+    width: 100%;
+    height: 110vh;
+  
+    position: absolute;
+    top: 60vh;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-size: auto;
+    overflow-y: auto;
+    object-fit: cover;
+  
+  }
