@@ -1,29 +1,28 @@
 body{
-  width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    resize: both;
-    overflow-x: hidden;
+   margin: 0;
 }
 
 .background{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.65)) ,url(https://inspgr.id/app/uploads/2022/05/photography-zhurkanov-semechkin-feature.jpg);
-    width: 100%;
-    height: 100vh;
-	
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.65)) ,url(https://images4.alphacoders.com/983/983434.jpg);
+    max-width: 100%;
+    height: 100%;
+    padding: 0%;
+    resize: both;
+    overflow-x: hidden;
+    margin-left: auto;
+    margin-right: auto;
     position: absolute;
-    top: -32vh;
+    top: 0;
     bottom: 0;
     right: 0;
     left: 0;
+    background-repeat: no-repeat;
     background-size: cover;
-    overflow-y: auto;
-    
+    background-position: center;    
 }
 
-
 .navbar{
+  padding: 0%;
     width: 100%;
     height: 90px;
     background-color: rgb(14, 1, 48);
@@ -31,33 +30,62 @@ body{
     right: 0;
     bottom: 10px;
     opacity: 0.8
+    
 }
 .navbarline{
   width: 100%;
+  padding: 0%;
     height: 1px;
     background-color: rgb(255, 255, 255);
     position: absolute;
     right: 0;
     bottom: 0;
-}
+  }
+
 .container {
     position: absolute;
-    margin: 20px;
-    width: 1922px;
+  }
+  .bubbles
+  {
+   position: relative;
+   display: flex;
+  }
+
+  .bubbles span
+  {
+   position: relative;
+   width: 30px;
+   height: 50px;
+   background: rgb(#35343426);
+   margin: 0 40px;
+   border-radius: 50%;
+   box-shadow: 0 0 0 10px #da303044,
+   0 0 50px #491d1d,
+   0 0 100px #dc4f4f;
+   animation: animate 15s linear infinite;
+  }
+  @keyframes animate{
+    0%
+  {
+transform:translateY(50vh);
+  }
   }
   .logo{
     position: absolute;
     float: left;
     font-size: 50px;
+    margin: 20px;
     color: aliceblue;
     text-decoration: underline;
     font-family:serif;
     font-style: italic;
     color: rgb(255, 255, 255);
     position: relative;
-    top: -3px;
-    width: 500px;
+    top: -4px;
+    width: 130px;
+    
   }
+
   .topnav{         
     width: 300px;
     float: right;
@@ -67,14 +95,22 @@ body{
     text-decoration: none;
     font-size: 27px;
     top: 0;
-    right: -1400px;
-    position: relative;
+    right: -1730px;
+    position: absolute;
+  }
+
+  .register{
+    position: absolute;
+    bottom: 8.5mm;
+    color: white;
+    right: 10cm;
   }
 
   .introduction h1{
-    width: 1900px;
+    width: 100%;
     height: 100px;
     margin: 20px;
+    padding: 0%;
     position: absolute;
     top: 190px ;
     right: 0;
@@ -83,12 +119,13 @@ body{
     color: #fff;
     font-size: 50px;
     font-style: italic;
-    
   }
+
   .introduction p{
-    width: 1900px;
+    width: 100%;
     height: 100px;
     margin: 20px;
+    padding: 0%;
     position: absolute;
     top: 350px ;
     right: 0;
@@ -99,7 +136,7 @@ body{
   }
 
   .background2{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0.65)) ,url(https://color-hex.org/colors/071426.png);
+    background-image: linear-gradient(#00000026,rgba(0, 0, 0, 0.65)) ,url(https://color-hex.org/colors/071426.png);
     width: 100%;
     height: 110vh;
   
@@ -111,5 +148,120 @@ body{
     background-size: auto;
     overflow-y: auto;
     object-fit: cover;
-  
   }
+
+  .categories{
+    width: 100%;
+    margin: 20px;
+    padding: 0%;
+    position: absolute;
+    height: 80px;
+    top: 540px ;
+    right: 0;
+    transform: translateY(50%);
+    text-align:  center;
+    color: #fff;
+    font-size: 40px;
+  }
+
+.navbarline2{
+  width: 290px;
+  padding: 0%;
+  margin: 20px;
+  position: absolute;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    right: 21cm;
+    top: 4cm;
+}
+
+.category1{
+  width: 290px;
+  padding: 0%;
+  margin: 20px;
+  position: absolute;
+    height: 390px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    right: 11cm;
+    top: 9cm;
+    background-image: url(https://ae01.alicdn.com/kf/H7d47da27d0014136986552dc70927c73a/Ankle-Length-jeans-for-men-vintage-clothes-printing-straight-2020-new-spring-denim-mens-clothing-loose.jpg);
+    background-size: cover;
+    background-position: 9cm;
+    border-color: white;
+    border-style: solid;
+    color: red;
+}
+
+.category2{
+  width: 290px;
+  padding: 0%;
+  margin: 20px;
+  position: absolute;
+    height: 390px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    right: 21cm;
+    top: 9cm;
+    background-image: url(https://i.pinimg.com/474x/0a/09/26/0a09260d745ea7575dd98f314f2a63aa.jpg);
+    background-size: cover;
+    background-position: 7.7cm;
+    border-color: white;
+    border-style: solid;
+    color: red;
+}
+
+.category3{
+  width: 290px;
+  padding: 0%;
+  margin: 20px;
+  position: absolute;
+    height: 390px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    right: 1cm;
+    top: 9cm;
+    background-image: url(https://media.theeverygirl.com/wp-content/uploads/2022/08/athleticwear-1.jpg);
+    background-size: cover;
+    background-position: 9cm;
+    border-color: white;
+    border-style: solid;
+    color: red;
+}
+
+.category4{
+  width: 290px;
+  padding: 0%;
+  margin: 20px;
+  position: absolute;
+    height: 390px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    right: 31cm;
+    top: 9cm;
+    background-image: url(https://ae01.alicdn.com/kf/H20d098597c6d4cce9b4c86db00cbe2f3L/Emo-Anime-Goth-Tshirt-Women-Oversized-Emo-Punk-Harajuku-Summer-Top-Dark-Aesthetic-Fairy-Grunge-Alt.jpg_Q90.jpg_.webp);
+    background-size: cover;
+    background-position: 9cm;
+    border-color: white;
+    border-style: solid;
+    color: red;
+}
+
+.category5{
+  width: 290px;
+  padding: 0%;
+  margin: 20px;
+  position: absolute;
+    height: 390px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    right: 41cm;
+    top: 9cm;
+    background-image: url(https://cdn.shopify.com/s/files/1/0162/2116/files/Formal_outfit_ideas_for_men_18.jpg);
+    background-size: cover;
+    background-position: 7.7cm;
+    border-color: white;
+    border-style: solid;
+    color: red;
+}
